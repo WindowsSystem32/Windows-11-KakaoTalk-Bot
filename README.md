@@ -1,5 +1,5 @@
 # Windows-11-KakaoTalk-Bot
- _windows 11( https://open.kakao.com/o/sfOCAypd )님_의 카카오톡 봇 코드입니다.  
+ *windows 11( https://open.kakao.com/o/sfOCAypd )님*의 카카오톡 봇 코드입니다.  
  코드가 더러워도 양해 바랍니다.  
  참고: 봇 주인은 11님이지**만**,  
  **제작자는 저( https://open.kakao.com/me/Windows / https://github.com/WindowsSystem32 )입니다**.  
