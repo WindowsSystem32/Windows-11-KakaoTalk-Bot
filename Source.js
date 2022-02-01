@@ -380,6 +380,7 @@ function response(room, msg, sender, isGroupChat, replier, imageDB, packageName)
         }
       } else if (msg == "채팅로그_삭제") {
         msg = msg.substring(8);
+        var iOR = cl[0].indexOf(rom);
         if (aL == 3) {
           cl[0].splice(iOR, 1);
           cl[1].splice(iOR, 1);
@@ -487,7 +488,7 @@ function response(room, msg, sender, isGroupChat, replier, imageDB, packageName)
         "버전: 0.2.7 \"SAVE\"" + ln + 
         "언어: 자바스크립트(JS)" + ln + 
         "개발 시작: 2021-12-18" + ln + 
-        "최근 업데이트: 2022-01-28");
+        "최근 업데이트: 2022-02-01");
       } else if (msg == "주사위") {
         replier.reply((Math.floor(Math.random() * 5) + 1) + "(이)가 나왔습니다!");
       } else if (msg.startsWith("따라하기 ")) {
@@ -522,6 +523,7 @@ function response(room, msg, sender, isGroupChat, replier, imageDB, packageName)
         "2022-01-21: 자폭 기능 수정" + ln + 
         "2022-01-2?: 0.2.7 완성" + ln + 
         "2022-01-28: 여러 기능 수정, 설정 저장/로드 기능 추가, 0.2.8 완성" + ln + 
+        "2022-02-01: 채팅로그 삭제 기능 개선" + ln + 
         "(개발자: 살려주세요)");
       } else if (msg == "해시") {
         replier.reply("당신의 해시는" + ln + 
